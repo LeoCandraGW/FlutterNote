@@ -58,7 +58,7 @@ class _HomePageState extends State<HomePage> {
                 double containerSize;
                 bool isTablet = constraints.maxWidth >= 600;
                 containerSize = isTablet
-                    ? constraints.maxWidth * 0.3
+                    ? constraints.maxWidth * 0.2
                     : constraints.maxWidth * 0.3;
                 return RefreshIndicator(
                   onRefresh: _refresh,
